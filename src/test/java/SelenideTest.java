@@ -12,7 +12,7 @@ public class SelenideTest {
 
     @Before
     public void start() {
-        Configuration.remote = "http://localhost:4444/wd/hub";
+        Configuration.remote = "http://192.168.0.121:4444/wd/hub";
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("enableVNC", true);
         Configuration.browserCapabilities = dc;
