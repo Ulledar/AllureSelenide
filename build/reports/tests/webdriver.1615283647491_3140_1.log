@@ -1,0 +1,394 @@
+[1615283647.792][INFO]: Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 13046
+[1615283647.792][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1615283648.203][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Ulledar\\IdeaProjects\\AllureSelenide\\build\\downloads\\1615283646806_3140_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Ulledar\\IdeaProjects\\AllureSelenide\\build\\downloads\\1615283646806_3140_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1615283648.207][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Ulledar\\IdeaProjects\\AllureSelenide\\build\\downloads\\1615283646806_3140_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1615283648.208][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1615283648.210][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Ulledar\AppData\Local\Temp\scoped_dir10412_2014571026" data:,
+[1615283648.688][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1615283648.692][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1615283648.696][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "88.0.4324.190",
+      "chrome": {
+         "chromedriverVersion": "88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784})",
+         "userDataDir": "C:\\Users\\Ulledar\\AppData\\Local\\Temp\\scoped_dir10412_2014571026"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:37910"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8e9e50771fb8559cd80a7e2f9beafd7d"
+}
+[1615283648.731][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1615283648.731][INFO]: Waiting for pending navigations...
+[1615283648.733][INFO]: Done waiting for pending navigations. Status: ok
+[1615283648.839][INFO]: Waiting for pending navigations...
+[1615283648.840][INFO]: Done waiting for pending navigations. Status: ok
+[1615283648.840][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1615283648.844][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1615283648.844][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE SetTimeouts
+[1615283648.849][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND Navigate {
+   "url": "https://mvnrepository.com"
+}
+[1615283648.849][INFO]: Waiting for pending navigations...
+[1615283648.849][INFO]: Done waiting for pending navigations. Status: ok
+[1615283649.749][INFO]: Waiting for pending navigations...
+[1615283650.359][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.359][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE Navigate
+[1615283650.383][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283650.383][INFO]: Waiting for pending navigations...
+[1615283650.383][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.390][INFO]: Waiting for pending navigations...
+[1615283650.391][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.391][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283650.598][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283650.598][INFO]: Waiting for pending navigations...
+[1615283650.599][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.602][INFO]: Waiting for pending navigations...
+[1615283650.603][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.603][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283650.809][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283650.809][INFO]: Waiting for pending navigations...
+[1615283650.810][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.813][INFO]: Waiting for pending navigations...
+[1615283650.813][INFO]: Done waiting for pending navigations. Status: ok
+[1615283650.813][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283651.019][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283651.019][INFO]: Waiting for pending navigations...
+[1615283651.020][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.024][INFO]: Waiting for pending navigations...
+[1615283651.024][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.024][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283651.229][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283651.229][INFO]: Waiting for pending navigations...
+[1615283651.230][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.234][INFO]: Waiting for pending navigations...
+[1615283651.234][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.234][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283651.439][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283651.439][INFO]: Waiting for pending navigations...
+[1615283651.440][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.444][INFO]: Waiting for pending navigations...
+[1615283651.444][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.444][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283651.650][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283651.650][INFO]: Waiting for pending navigations...
+[1615283651.651][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.655][INFO]: Waiting for pending navigations...
+[1615283651.655][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.655][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283651.860][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283651.860][INFO]: Waiting for pending navigations...
+[1615283651.861][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.864][INFO]: Waiting for pending navigations...
+[1615283651.865][INFO]: Done waiting for pending navigations. Status: ok
+[1615283651.865][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283652.071][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283652.071][INFO]: Waiting for pending navigations...
+[1615283652.072][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.075][INFO]: Waiting for pending navigations...
+[1615283652.076][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.076][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283652.281][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283652.281][INFO]: Waiting for pending navigations...
+[1615283652.282][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.285][INFO]: Waiting for pending navigations...
+[1615283652.286][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.286][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283652.490][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283652.490][INFO]: Waiting for pending navigations...
+[1615283652.491][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.495][INFO]: Waiting for pending navigations...
+[1615283652.496][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.496][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283652.701][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283652.701][INFO]: Waiting for pending navigations...
+[1615283652.702][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.705][INFO]: Waiting for pending navigations...
+[1615283652.706][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.706][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283652.912][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283652.912][INFO]: Waiting for pending navigations...
+[1615283652.913][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.917][INFO]: Waiting for pending navigations...
+[1615283652.917][INFO]: Done waiting for pending navigations. Status: ok
+[1615283652.917][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283653.121][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283653.121][INFO]: Waiting for pending navigations...
+[1615283653.122][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.126][INFO]: Waiting for pending navigations...
+[1615283653.126][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.126][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283653.330][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283653.330][INFO]: Waiting for pending navigations...
+[1615283653.331][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.334][INFO]: Waiting for pending navigations...
+[1615283653.335][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.335][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283653.540][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283653.540][INFO]: Waiting for pending navigations...
+[1615283653.541][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.545][INFO]: Waiting for pending navigations...
+[1615283653.545][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.545][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283653.750][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283653.750][INFO]: Waiting for pending navigations...
+[1615283653.750][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.754][INFO]: Waiting for pending navigations...
+[1615283653.755][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.755][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283653.959][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283653.959][INFO]: Waiting for pending navigations...
+[1615283653.959][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.963][INFO]: Waiting for pending navigations...
+[1615283653.964][INFO]: Done waiting for pending navigations. Status: ok
+[1615283653.964][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283654.170][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283654.170][INFO]: Waiting for pending navigations...
+[1615283654.171][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.174][INFO]: Waiting for pending navigations...
+[1615283654.175][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.175][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283654.380][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "textfield"
+}
+[1615283654.380][INFO]: Waiting for pending navigations...
+[1615283654.381][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.384][INFO]: Waiting for pending navigations...
+[1615283654.385][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.385][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"textfield"}
+  (Session info: chrome=88.0.4324.190)
+[1615283654.390][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1615283654.390][INFO]: Waiting for pending navigations...
+[1615283654.391][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.395][INFO]: Waiting for pending navigations...
+[1615283654.396][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.396][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cmeta charset=\"UTF-8\">\u003Ctitle>Maven Repository: Search/Browse/Explore\u003C/title>\u003Clink rel=\"canonical\" href=\"https://mvnrepository.com/\">\u003Clink rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/..."
+[1615283654.405][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND Screenshot {
+
+}
+[1615283654.406][INFO]: Waiting for pending navigations...
+[1615283654.407][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.637][INFO]: Waiting for pending navigations...
+[1615283654.638][INFO]: Done waiting for pending navigations. Status: ok
+[1615283654.638][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzsnXl8FdX1wL+TPRBCQkJI2BNAAcOSAEoQUBYBsdIKYhE0XVwr1Crmly5QW6uopXFpf6D+bK01Clgo2GpF1iiIBNnCEgE1EHYeLyEJISEh2/z+mPfezLwtLwsky..."
+[1615283654.726][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] COMMAND Quit {
+
+}
+[1615283654.750][INFO]: [8e9e50771fb8559cd80a7e2f9beafd7d] RESPONSE Quit
