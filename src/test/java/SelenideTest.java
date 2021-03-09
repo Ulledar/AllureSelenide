@@ -16,7 +16,7 @@ public class SelenideTest {
         DesiredCapabilities dc = new DesiredCapabilities();
         dc.setCapability("enableVNC", true);
         Configuration.browserCapabilities = dc;
-        open("https://mvnrepository.com");
+        Configuration.baseUrl = "https://mvnrepository.com";
     }
 
     @Epic("TEST ON https://mvnrepository.com SEARCHER.")
@@ -26,6 +26,7 @@ public class SelenideTest {
     @Story("Try to pass the test")
     @Test
     public void findSelenide() {
+        open();
         searchField();
         pressButton();
         selenideChoser();
