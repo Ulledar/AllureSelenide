@@ -1,8 +1,10 @@
+import com.codeborne.selenide.Configuration;
 import io.qameta.allure.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -10,6 +12,10 @@ public class SelenideTest {
 
     @Before
     public void start() {
+        Configuration.remote = "http://localhost:4444/wd/hub";
+        DesiredCapabilities dc = new DesiredCapabilities();
+        dc.setCapability("enableVNC", true);
+        Configuration.browserCapabilities = dc;
         open("https://mvnrepository.com");
     }
 
