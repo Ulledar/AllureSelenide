@@ -26,7 +26,7 @@ public class SelenideTest {
     @Story("Try to pass the test")
     @Test
     public void findSelenide() {
-        open();
+        open("/");
         searchField();
         pressButton();
         selenideChoser();
