@@ -12,5 +12,4 @@ public class BaseTest {
         Configuration.browserCapabilities = dc;
         Configuration.baseUrl = "https://mvnrepository.com";
     }
-
 }
