@@ -25,7 +25,7 @@ public class SelenideFinder extends BaseTest {
     @Epic("TEST ON https://mvnrepository.com")
     @Feature("Looking for something new!")
     @Severity(SeverityLevel.MINOR)
-    @Description("Cheking newest button efficiency")
+    @Description("Cheking newest button")
     @Story("Opening Popular Categorise for looking some new Testing Frameworks.")
     @Test
     public void findNewestPopular() {
@@ -34,6 +34,11 @@ public class SelenideFinder extends BaseTest {
         testingFrameworks();
         newest();
     }
+
+    /*@Test
+    public void newTest() {
+
+    }*/
 
     @Step("Chose newest")
     public void newest() {
