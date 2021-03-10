@@ -28,7 +28,7 @@ public class SelenideTest {
     public void findSelenide() {
         open("/");
         searchField();
-        pressButton();
+        searchButton();
         selenideChoser();
         versionChoser();
         checkTheTitle();
@@ -40,7 +40,7 @@ public class SelenideTest {
     }
 
     @Step("2")
-    public void pressButton() {
+    public void searchButton() {
         $(By.className("button")).click();
     }
 
