@@ -8,16 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class SelenideTest {
-
-    @Before
-    public void start() {
-        Configuration.remote = "http://192.168.0.121:4444/wd/hub";
-        DesiredCapabilities dc = new DesiredCapabilities();
-        dc.setCapability("enableVNC", true);
-        Configuration.browserCapabilities = dc;
-        Configuration.baseUrl = "https://mvnrepository.com";
-    }
+public class SelenideFinder extends BaseTest {
 
     @Epic("TEST ON https://mvnrepository.com SEARCHER.")
     @Feature("Test for finding.")
@@ -34,12 +25,12 @@ public class SelenideTest {
         checkTheTitle();
     }
 
-    @Step("1")
+    @Step("Search Field")
     public void searchField() {
         $(By.id("query")).sendKeys("selenide");
     }
 
-    @Step("2")
+    @Step("Search Button")
     public void searchButton() {
         $(By.className("button")).click();
     }
@@ -58,4 +49,5 @@ public class SelenideTest {
     public void checkTheTitle() {
         Assert.assertTrue(title().equals("Maven Repository: com.codeborne » selenide » 5.19.0"));
     }
+
 }
