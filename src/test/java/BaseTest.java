@@ -1,5 +1,4 @@
 import com.codeborne.selenide.Configuration;
-import org.junit.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 

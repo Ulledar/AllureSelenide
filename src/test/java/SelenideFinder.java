@@ -24,7 +24,7 @@ public class SelenideFinder extends BaseTest {
 
     @Epic("TEST ON https://mvnrepository.com")
     @Feature("Looking for something new!")
-    @Severity(SeverityLevel.MINOR)
+    @Severity(SeverityLevel.NORMAL)
     @Description("Cheking newest button")
     @Story("Opening Popular Categorise for looking some new Testing Frameworks.")
     @Test
@@ -35,10 +35,18 @@ public class SelenideFinder extends BaseTest {
         newest();
     }
 
-    /*@Test
-    public void newTest() {
-
-    }*/
+    @Epic("TEST ON https://mvnrepository.com")
+    @Feature("Looking for something new! 2nd way")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Cheking enother way to newest button")
+    @Story("Opening Popular Categorise for looking some new Logging Frameworks.")
+    @Test
+    public void alternativeNewest() {
+        open("/");
+        $("div#navigation a[href='/open-source']").click();
+        $("a[href='/open-source/logging-frameworks']").click();
+        $("a[href='?sort=newest']").click();
+    }
 
     @Step("Chose newest")
     public void newest() {
