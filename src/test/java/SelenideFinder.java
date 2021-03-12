@@ -1,11 +1,16 @@
+import com.codeborne.selenide.Configuration;
 import io.qameta.allure.*;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver;
 
-public class SelenideFinder extends BaseTest {
+public class SelenideFinder extends BaseTest{
 
     @Epic("TEST ON https://mvnrepository.com")
     @Feature("Test for finding.")
@@ -14,7 +19,7 @@ public class SelenideFinder extends BaseTest {
     @Story("Try to pass the test")
     @Test
     public void findSelenide() {
-        open("/");
+        open("https://mvnrepository.com");
         searchField("selenide");
         searchButton();
         selenideChoser();
@@ -29,7 +34,7 @@ public class SelenideFinder extends BaseTest {
     @Story("Opening Popular Categorise for looking some new Testing Frameworks.")
     @Test
     public void findNewestPopular() {
-        open("/");
+        open("https://mvnrepository.com");
         popular();
         testingFrameworks();
         newest();
@@ -42,7 +47,7 @@ public class SelenideFinder extends BaseTest {
     @Story("Opening Popular Categorise for looking some new Logging Frameworks.")
     @Test
     public void alternativeNewest() {
-        open("/");
+        open("https://mvnrepository.com");
         $("div#navigation a[href='/open-source']").click();
         $("a[href='/open-source/logging-frameworks']").click();
         $("a[href='?sort=newest']").click();
