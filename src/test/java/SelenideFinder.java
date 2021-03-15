@@ -1,14 +1,9 @@
-import com.codeborne.selenide.Configuration;
 import io.qameta.allure.*;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.*;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver;
 
 public class SelenideFinder extends BaseTest{
 

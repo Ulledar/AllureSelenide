@@ -1,12 +1,6 @@
 import com.codeborne.selenide.Configuration;
-import org.junit.Before;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.parallel.Execution;
-import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-import static com.codeborne.selenide.Selenide.open;
 
 //@Execution(ExecutionMode.CONCURRENT)
 public class BaseTest {
