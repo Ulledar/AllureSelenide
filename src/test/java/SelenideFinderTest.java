@@ -5,7 +5,7 @@ import org.openqa.selenium.*;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class SelenideFinder extends BaseTest{
+public class SelenideFinderTest extends BaseTest{
 
     @Epic("TEST ON https://mvnrepository.com")
     @Feature("Test for finding.")
