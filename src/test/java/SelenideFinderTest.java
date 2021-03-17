@@ -1,6 +1,6 @@
 import io.qameta.allure.*;
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 
 import static com.codeborne.selenide.Selenide.*;

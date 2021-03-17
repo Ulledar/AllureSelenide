@@ -2,13 +2,13 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-//@Execution(ExecutionMode.CONCURRENT)
+
 public class BaseTest {
 
     @BeforeEach
     public void start() {
-        Configuration.remote = "http://192.168.0.121:4444/wd/hub";
         Configuration.driverManagerEnabled = false;
+        Configuration.remote = "http://192.168.0.121:4444/wd/hub";
         //Configuration.remote = "http://localhost:4444/wd/hub";
         Configuration.browser = "chrome";
         Configuration.startMaximized = false;
