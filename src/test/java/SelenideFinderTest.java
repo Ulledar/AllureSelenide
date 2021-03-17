@@ -14,7 +14,7 @@ public class SelenideFinderTest extends BaseTest{
     @Story("Try to pass the test")
     @Test
     public void findSelenide() {
-        open("https://mvnrepository.com");
+        open("/");
         searchField("selenide");
         searchButton();
         selenideChoser();
@@ -29,7 +29,7 @@ public class SelenideFinderTest extends BaseTest{
     @Story("Opening Popular Categorise for looking some new Testing Frameworks.")
     @Test
     public void findNewestPopular() {
-        open("https://mvnrepository.com");
+        open("/");
         popular();
         testingFrameworks();
         newest();
@@ -42,7 +42,7 @@ public class SelenideFinderTest extends BaseTest{
     @Story("Opening Popular Categorise for looking some new Logging Frameworks.")
     @Test
     public void alternativeNewest() {
-        open("https://mvnrepository.com");
+        open("/");
         $("div#navigation a[href='/open-source']").click();
         $("a[href='/open-source/logging-frameworks']").click();
         $("a[href='?sort=newest']").click();
